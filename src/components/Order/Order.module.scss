@@ -1,0 +1,28 @@
+.order{
+    text-align: center;
+    background: #FFCD32;
+
+    img{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+    }
+    .order_items{
+           display:flex;
+       }
+}
+.avatar{
+   img{
+    width: 30px;
+    height:30px;
+    object-fit:cover;
+   }
+}
+.cocktail_item{
+    cursor: pointer;
+    position: relative;
+    &_info{
+        position: absolute;
+        bottom:0;
+    }
+}
